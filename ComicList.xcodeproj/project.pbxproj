@@ -91,6 +91,7 @@
 		82EC5ECA1DA17A640096F033 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EC5EC91DA17A640096F033 /* UIColor+Additions.swift */; };
 		82EC5ECC1DA17E810096F033 /* VolumeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EC5ECB1DA17E810096F033 /* VolumeHeaderView.swift */; };
 		82FCADB91DA23AE20091EB53 /* VolumeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCADB81DA23AE20091EB53 /* VolumeDetailViewModel.swift */; };
+		A9A6CA581DB0DE6800741099 /* String+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A6CA571DB0DE6800741099 /* String+HTML.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -375,6 +376,7 @@
 		82EC5EC91DA17A640096F033 /* UIColor+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
 		82EC5ECB1DA17E810096F033 /* VolumeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeHeaderView.swift; sourceTree = "<group>"; };
 		82FCADB81DA23AE20091EB53 /* VolumeDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeDetailViewModel.swift; sourceTree = "<group>"; };
+		A9A6CA571DB0DE6800741099 /* String+HTML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HTML.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -678,6 +680,7 @@
 				82EC5EC21DA171430096F033 /* VolumeDetailViewController.xib */,
 				82FCADB81DA23AE20091EB53 /* VolumeDetailViewModel.swift */,
 				82B1582D1DA23F9000DC2E59 /* VolumeDetailCoordinator.swift */,
+				A9A6CA571DB0DE6800741099 /* String+HTML.swift */,
 			);
 			name = "Volume Detail";
 			sourceTree = "<group>";
@@ -824,7 +827,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "Guillermo Gonzalez";
+				ORGANIZATIONNAME = "Alejandro Fuster";
 				TargetAttributes = {
 					8203388D1DA3C1F0001E7F32 = {
 						CreatedOnToolsVersion = 8.0;
@@ -852,7 +855,7 @@
 					};
 					829847B41D9D3CCF00C6A9C9 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = T5TF72MCE6;
+						DevelopmentTeam = D5QHSG2783;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1141,6 +1144,7 @@
 				827B6B6D1D9EAD45004EC14A /* UITableViewCell+ReusableView.swift in Sources */,
 				82A85D031DAA8421004ADC44 /* VolumeContainer+List.swift in Sources */,
 				829847E51D9D962D00C6A9C9 /* SearchSuggestionsViewModel.swift in Sources */,
+				A9A6CA581DB0DE6800741099 /* String+HTML.swift in Sources */,
 				829847E31D9D944700C6A9C9 /* UISearchBar+Additions.swift in Sources */,
 				8225DC521DA28F4900DFF9FA /* SearchResultsCoordinator.swift in Sources */,
 				82EC5E9C1D9EAF0E0096F033 /* UITableView+Additions.swift in Sources */,
@@ -1505,10 +1509,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T5TF72MCE6;
+				DEVELOPMENT_TEAM = D5QHSG2783;
 				INFOPLIST_FILE = ComicList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gonzalezreal.ComicList;
+				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.ComicList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1519,10 +1523,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T5TF72MCE6;
+				DEVELOPMENT_TEAM = D5QHSG2783;
 				INFOPLIST_FILE = ComicList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gonzalezreal.ComicList;
+				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.ComicList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

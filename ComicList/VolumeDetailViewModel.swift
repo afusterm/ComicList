@@ -42,7 +42,7 @@ final class VolumeDetailViewModel: VolumeDetailViewModelType {
     private(set) lazy var about: Observable<String?> = self.client
         .object(forResource: API.description(volumeIdentifier: self.volume.identifier))
         .map { (value: VolumeDescription) -> String? in
-            return value.description
+            return value.description?.plainText
         }
         .startWith("")
         .observeOn(MainScheduler.instance)
